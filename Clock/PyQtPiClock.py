@@ -2505,7 +2505,7 @@ else:
     glow.setOffset(0)
     glow.setBlurRadius(50)
     glow.setColor(QColor(dcolor))
-    clockface.setGraphicsEffect(glow)
+    #clockface.setGraphicsEffect(glow)
 
 
 radar1rect = QtCore.QRect(3 * xscale, 344 * yscale, 300 * xscale, 275 * yscale)

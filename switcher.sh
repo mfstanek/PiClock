@@ -1,4 +1,4 @@
-cd $HOME/PiClock
+cd $HOME/_git/PiClock
 pkill -INT -f PyQtPiClock.py
 cd Clock
 if [ "$DISPLAY" = "" ]
